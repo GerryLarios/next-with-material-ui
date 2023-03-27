@@ -1,8 +1,8 @@
 import { render } from '@testing-library/react';
-import Index from './index';
+import Page from 'pages/index.page';
 
 describe('Index', () => {
   it('should render correctly', () => {
-    render(<Index />);
+    render(<Page />);
   });
 });
