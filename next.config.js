@@ -13,6 +13,7 @@ const nextConfig = {
       'src/layouts',
       'src/pages',
       'src/providers',
+      'src/theme',
       'src/types',
       'src/utils',
     ],
