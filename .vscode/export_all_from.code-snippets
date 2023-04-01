@@ -1,0 +1,10 @@
+{
+	"Export all from": {
+		"scope": "typescript,typescriptreact",
+		"prefix": "expall",
+		"body": [
+			"export * from './$1';",
+		],
+		"description": "creates the 'export default from a path'"
+	}
+}

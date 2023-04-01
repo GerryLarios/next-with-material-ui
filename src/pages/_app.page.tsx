@@ -2,6 +2,7 @@ import '@fontsource/roboto/500.css';
 import Head from 'next/head';
 import type { AppProps } from 'next/app';
 import { CssReset, ThemeProvider } from 'components';
+import { DashboardLayoutProvider } from 'context/DashboardLayout';
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
@@ -13,7 +14,9 @@ export default function App({ Component, pageProps }: AppProps) {
       </Head>
       <ThemeProvider>
         <CssReset />
-        <Component {...pageProps} />
+        <DashboardLayoutProvider>
+          <Component {...pageProps} />
+        </DashboardLayoutProvider>
       </ThemeProvider>
     </>
   );

@@ -1,0 +1,17 @@
+{
+	"Create functional component": {
+		"scope": "typescriptreact",
+		"prefix": "cfc",
+		"body": [
+      "type $1Props = {",
+      "\tchildren?: React.ReactNode;",
+      "\tclassName?: string",
+      "};\n",
+      "const $1: React.FC<$1Props> = ({ }) => {",
+      "\treturn ()",
+      "};\n",
+      "export default $1;"
+		],
+		"description": "Creates a funcional component and exports it"
+	}
+}

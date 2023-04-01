@@ -1,0 +1,10 @@
+{
+	"Create style component": {
+		"scope": "typescriptreact",
+		"prefix": "csc",
+		"body": [
+			"const $1 = styled('$2')({});",
+		],
+		"description": "create a new styled component"
+	}
+}

@@ -1,0 +1,12 @@
+{
+  "Create hook": {
+    "scope": "typescript,typescriptreact",
+    "prefix": "chk",
+    "body": [
+      "export default function use$1() {",
+      "\treturn {};",
+      "}"
+    ],
+    "description": "Create a new hook"
+  }
+}

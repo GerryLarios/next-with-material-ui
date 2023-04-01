@@ -1,0 +1,16 @@
+{
+  "Create context": {
+    "scope": "typescriptreact",
+    "prefix": "cctx",
+    "body": [
+      "type $1ContextValue = {};\n",
+      "export const $1Context = createContext<$1ContextValue>({});\n",
+      "export const $1Provider: React.FC<{ children?: React.ReactNode }> = ({ children }) => {",
+      "\treturn (",
+      "\t\t<$1Context.Provider value={{}}>{children}</$1Context.Provider>",
+      "\t);",
+      "};"
+    ],
+    "description": "Create a new context and its provider"
+  }
+}
